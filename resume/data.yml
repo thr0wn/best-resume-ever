@@ -1,98 +1,171 @@
 /* #*/ export const PERSON = `
-# Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  first: Natan
+  middle: dos Santos
+  last: Camargos
+  about: Dono de 🐶
+  position: Software Developer
 
 birth:
   year: 1990
-  location: New York
-
-# you may add more experiences by duplicating the template
+  location: Brazil
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Beyond
+  position: Desenvolvedor Frontend Sênior
+  timeperiod: Jul/2022 - Ago/2023
+  description: "Desenvolvimento e manutenção de bibliotecas e ferramentas de frontend para aprimorar a experiência do usuário final."
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Fretebras
+  position: Desenvolvedor Frontend Sênior
+  timeperiod: Out/2020 - Nov/2021
+  description: "Frontend na plataforma de risco da FreteBras, que oferece validação de motoristas através de OCR e consultas aos órgãos de trânsito brasileiros, de modo a estimar o risco associado com cada frete. Desenvolvimento de projetos cross-squads (e.g: Design System Components and CLI)."
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Hathor Network
+  position: Software Engineer
+  timeperiod: Nov/2020 - Abr/2021
+  description: "Contribuição no desenvolvimento das carteiras mobile e desktop, além de participação na construção de APIs e de bibliotecas no ecossistema Hathor."
+
+- company: Bitcoin.com
+  position: Software Engineer
+  timeperiod: Jan/2020 - Out/2020
+  description: "Desenvolvimento de uma carteira de ativos para a blockchain do Bitcoin Cash. A carteira 'Mint' foi criada durante um hackathon e atraiu interesse da comunidade. A carteira foi divulgada em vários artigos, incluindo os seguintes: https://news.bitcoin.com/how-to-create-custom-slp-tokens-with-the-bitcoin-com-mint/ https://www.businesswire.com/news/home/20200213005745/en/Bitcoin.com-Launches-Mint-Token-Creation-Platform-Set."
+
+- company: Beyond
+  position: Desenvolvedor Frontend Sênior
+  timeperiod: Ago/2018 - Jan/2020
+  description: "Na Beyond uma nova UX foi desenvolvida para o portal da corretora 'Terra Investimentos', na época uma das dez mais importantes corretoras do Brazil. O portal foi criado a partir de um Design System concebido focando nos detalhes e usabilidade dos componentes mais simples até os mais complexos."
+
+- company: XP Investimentos
+  position: Desenvolvedor Sênior
+  timeperiod: Mar/2018 - Ago/2019
+  description: "Papel fundamental no desenvolvimento da nova UX dos produtos da squad de previdência, uma das mais relevantes squads da corretora, em parte devido ao debate acerca da reforma da previdência na época. A entrega da nova experiência, que viabilizou contratações totalmente online resultou em aumento significativo para a custódia da corretora."
+
+- company: Claro
+  position: Desenvolvedor full-stack
+  timeperiod: Jan/2017 - Mar/2018
+  description: "Desenvolvimento de microserviços Node.js consumido por aplicações e subsistemas da Claro Brasil e Net  and sub-systems of Claro Brazil and Net (e.g..: Now, Now Kids, Net App, Claro HDTV...). Adicionalmente, desenvolvi algumas aplicações usando React Native e Ionic, compondo uma stack full javascript. Outras tecnologias usadas na Claro: DynamoDB/MongoDB, AWS Elastic Beanstalk, AWS Lambda, AWS API Gateway, AWS Kinesis, AWS Cloudfront…"
+
+- company: iFactory - Hyatt
+  position: Front Developer
+  timeperiod: Fev/2015 - Jan/2017
+  description: "Desenvolvimento e manutenção do back office Hyatt (BOB - Back Office Board), responsável por centralizar todas as informações operacionais dos hotéis, ajudando a rotina diária dos funcionários e mantendo os gestores informados."
+
+- company: Grupo de Redes de Computadores, Engenharia de Software e Sistemas (GREat)
+  position: Desenvolvedor
+  timeperiod: Dez/2013 - Nov/2014
+  description: "Customizações das imagens de Android para atender demandas de clientes do Brasil."
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Universidade Federal do Ceará
+  timeperiod: 2009 - 2013
+  description: Bacharelado em Engenharia de Teleinformática (Enfânse em Computação)
+  website: https://www.ufc.br/
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
-
-# skill level goes from 0 to 100
+# skill level goes 0 to 100
 skills:
+- name: React
+  level: 100
+- name: Styled Components
+  level: 80
+- name: Storybook
+  level: 85
+- name: Redux
+  level: 90
+- name: Electron
+  level: 70
+- name: React Native
+  level: 70
+- name: Jest
+  level: 85
+- name: RTL
+  level: 75
+- name: Cypress
+  level: 80
+- name: Webpack
+  level: 95
+- name: Angular.JS
+  level: 80
+- name: JavaScript
+  level: 95
 - name: HTML5
-  level: 99
+  level: 95
 - name: CSS3
   level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
 - name: TypeScript
   level: 80
-- name: ES.Next
+- name: Node.js
+  level: 90
+- name: Lisp
   level: 70
+- name: Java
+  level: 60
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+  level: 70
+- name: Bitcoin
+  level: 80
+- name: Ethereum
+  level: 70
+- name: Bitcoin Cash
+  level: 85
+- name: DynamoDB
+  level: 75
+- name: MongoDB
+  level: 70
+- name: AWS Elastic Beanstalk
+  level: 70
+- name: AWS Lambda
+  level: 80
+- name: AWS API Gateway
+  level: 75
+- name: AWS Kinesis
+  level: 65
+- name: AWS Cloudfront
+  level: 70
+# knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+#   (English and Klingon).
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Pitico Cash
+  platform: React/Bitcoin Cash/Simple Ledger Protocol
+  description: "🚀 Award-winning Bitcoin Cash SLP Tokens Management Suite"
+  url: https://github.com/SLPVH/pitico
 
-# optional, not all resume templates have hobbies included
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+# hobbies:
+# - name: Video Games
+#   iconClass: fa fa-gamepad
+#   url: https://example.com
+#
+# - name: Drawing
+#   iconClass: fa fa-pencil
+#   url: https://example.com
+#
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Hathor Wallet
+  description: 💵 Desktop wallet of Hathor's network.
+  url: https://github.com/HathorNetwork/hathor-wallet
+
+- name: Hathor Wallet Library
+  description: 🔧 Library used by Hathor wallet.
+  url: https://github.com/HathorNetwork/hathor-wallet-lib
+
+- name: DefinitelyTyped
+  description: 👔 The repository for high quality TypeScript type definitions.
+  url: https://github.com/DefinitelyTyped/DefinitelyTyped
+
+- name: Brain.js
+  description: 🤖 Neural networks in JavaScript.
+  url: https://github.com/BrainJS/brain.js
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
+  email: natanscamargos@gmail.com
+  phone: +55 85 998056302
+  street: Rua NS 5 - Parque Iracema
+  city: Fortaleza/CE
   website: johndoe.com
-  github: johnyD
-# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
+  github: thr0wn
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+lang: pt-br
 `
